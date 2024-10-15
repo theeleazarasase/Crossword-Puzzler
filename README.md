@@ -14,7 +14,9 @@ In the command line, navigate to the project directory and run the main program:
 bash
 Copy code
 python <your_main_file>.py
+
 When prompted, enter the filename of a valid crossword puzzle (in CSV format).
+
 Example CSVs should include columns for "Row Index", "Column Index", "Down/Across", "Answer", and "Clue".
 
 Controls
@@ -36,16 +38,25 @@ Q: Quit the game.
 
 Features
 Crossword Display: The puzzle grid is displayed with row and column indices to guide player interaction.
+
 Clue Display: Lists both across and down clues to assist with solving.
+
 Input Validation: Ensures valid entries for guesses and commands.
+
 Guessing and Answer Checking: Allows users to enter guesses, and provides immediate feedback if answers are correct or not.
+
 Hints: Gives the first incorrect letter for clues that are partially correct.
+
 Puzzle Restart: Restart the game with a new puzzle file.
+
 Puzzle Validation: Automatically checks if the puzzle has been solved correctly.
 
 File Structure
+
 crossword.py: Contains the main logic for managing crossword clues and game state.
+
 Main Program File: Manages the game loop, user interaction, and displays.
+
 Dependencies
 Python 3.x
 No external libraries are required.
