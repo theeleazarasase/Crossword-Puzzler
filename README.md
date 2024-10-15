@@ -21,11 +21,17 @@ Controls
 While playing, you can interact with the game using the following commands:
 
 H: Display the help menu at any time.
+
 C n: Display the first n clues from both across and down lists.
+
 G i j A/D: Make a guess for the clue starting at row i, column j in either Across (A) or Down (D) direction.
+
 R i j A/D: Reveal the correct answer for the clue starting at row i, column j in the specified direction.
+
 T i j A/D: Get a hint for the clue, revealing the first wrong letter starting at row i, column j.
+
 S: Restart the puzzle with a new crossword file.
+
 Q: Quit the game.
 
 Features
